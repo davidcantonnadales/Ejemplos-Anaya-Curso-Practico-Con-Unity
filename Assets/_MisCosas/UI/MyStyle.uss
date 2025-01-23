@@ -1,0 +1,10 @@
+.botonPersonalizado {
+    background-color: rgb(52, 152, 219);
+    font-size: 32px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.botonPersonalizado:hover {
+    background-color: #2980b9;
+}

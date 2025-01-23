@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_MisCosas/UI/MyStyle.uss?fileID=7433441132597879392&amp;guid=d828838afb9d47e48b1460b58469c7a1&amp;type=3#MyStyle" />
+    <ui:VisualElement style="flex-grow: 1;">
+        <ui:VisualElement name="PlayerHealth" style="flex-grow: 1; width: 500px; height: 50px; align-items: flex-start; justify-content: flex-start; position: absolute; background-color: rgb(113, 113, 113); top: 20px; left: 20px;">
+            <ui:VisualElement name="Filling" style="flex-grow: 1; position: relative; height: 100%; width: 100%; top: 0; background-color: rgb(0, 255, 10); left: 0;" />
+        </ui:VisualElement>
+        <ui:Button text="Pause" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PauseButton" class="botonPersonalizado" style="width: 200px; height: 100px; transform-origin: right top; right: 20px; align-items: flex-end; align-self: flex-end; top: 20px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="MenuContainer" style="flex-grow: 1; width: 20%; height: 50%; align-items: flex-end; align-self: flex-end; right: 20px; bottom: 20px; position: absolute; visibility: visible; display: flex;">
+        <ui:VisualElement name="OptionsContainer" style="flex-grow: 1; visibility: hidden; width: 90%; height: 90%;">
+            <ui:Label tabindex="-1" text="MENU" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TitleLabel" style="align-items: center; width: 100%; font-size: 41px; -unity-font-style: bold; -unity-text-align: upper-center;" />
+            <ui:Button text="Opción 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonOption1" style="align-items: center; align-self: center; width: 200px; height: 80px; font-size: 39px;" />
+            <ui:Button text="Opción 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonOption2" style="align-items: center; align-self: center; width: 200px; height: 80px; font-size: 39px;" />
+            <ui:Button text="Opción 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ButtonOption3" style="align-items: center; align-self: center; width: 200px; height: 80px; font-size: 39px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
